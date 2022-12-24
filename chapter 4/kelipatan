@@ -1,0 +1,9 @@
+a = int(input("masukkan nilai min"))
+b = int(input("masukkan nilai max"))
+if(a % 3 == 0):
+    num = a
+elif(a % 5 == 0):
+    num = a
+x = range (num, b+1, 3)
+for n in x:
+    print(n)
